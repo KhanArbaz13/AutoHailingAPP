@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1070207825005",
+    "firebase_url": "https://tuktukk-70235.firebaseio.com",
+    "project_id": "tuktukk-70235",
+    "storage_bucket": "tuktukk-70235.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070207825005:android:97e622b09506cd7167bb64",
+        "android_client_info": {
+          "package_name": "com.example.tuktukk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070207825005-tg5r1r24oshls7a93avbh7o6f6fa5gal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1CnOsd6y8CC2-_H-4JSaAscUtF-9zmto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070207825005-tg5r1r24oshls7a93avbh7o6f6fa5gal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
