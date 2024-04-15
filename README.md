@@ -1,6 +1,6 @@
 # UberClone
 
-**Refactoring code...**
+
 
 ## Setup Guide
 
@@ -18,7 +18,4 @@
 - Go to your Credentials, create an API Key 
 - You will put that API key in common/ConfigApp.java file on GOOGLE_API_KEY constant on driver and rider apps
 
-## Screenshots
-|Driver Application|Rider Application|
-|---|---|
-|![ScreenshotDriverApp00](Images/Screenshot_DriverApp_00.png)|![ScreenshotRiderApp00](Images/Screenshot_RiderApp_00.png)|
+
