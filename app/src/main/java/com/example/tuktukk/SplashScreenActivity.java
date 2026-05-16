@@ -1,8 +1,11 @@
 package com.example.tuktukk;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import android.widget.Toast;
+import io.reactivex.Completable;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import java.util.concurrent.TimeUnit;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
@@ -11,14 +14,9 @@ public class SplashScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         delaySplashScreen();
     }
-    private void delauSplashScreen(){
-        completable.timer( delay 5,TimeUnit.SECONDS,
-                AndriodSchedulers.mainThread())
-        .sunscribe(()-> Toast.makeText(context SplashScreenActivity.this, text:"splash screen done !!!", Toast.LENGTH_SHORT).show();
 
-            }
-
-
-
+    private void delaySplashScreen() {
+        Completable.timer(5, TimeUnit.SECONDS, AndroidSchedulers.mainThread())
+            .subscribe(() -> Toast.makeText(SplashScreenActivity.this, "splash screen done !!!", Toast.LENGTH_SHORT).show());
     }
 }
